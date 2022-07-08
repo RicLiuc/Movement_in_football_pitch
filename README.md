@@ -10,6 +10,8 @@ The model used for the prediction has been the OST-ResNet, a model which slightl
 ST-ResNet is model commonly used in the prediction of the human mobility. 
 OST-ResNet changes the paradigm of ST-ResNet (from inflow/outflow to occupancy) and it reduces the number of temporal decomposition done on the data (from 3 to 2) to adapt the problem to the football environment.
 
+<img src="/image/OST.png">
+
 
 
 To start the project:
