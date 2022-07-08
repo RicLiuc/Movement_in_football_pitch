@@ -9,6 +9,7 @@ The data are about the 2019/2020 Serie A.
 The model used for the prediction has been the OST-ResNet, a model which slightly modify ST-ResNet (https://arxiv.org/pdf/1610.00081.pdf).
 ST-ResNet is model commonly used in the prediction of the human mobility. 
 OST-ResNet changes the paradigm of ST-ResNet (from inflow/outflow to occupancy) and it reduces the number of temporal decomposition done on the data (from 3 to 2) to adapt the problem to the football environment.
+A visualization of the architecture of OST-ResNet is showed in the picture below.
 
 <img src="/images/OST.png" alt="OST-ResNet" width="400" height="400">
 
